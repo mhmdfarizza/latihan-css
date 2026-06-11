@@ -5,6 +5,9 @@
             <hr>
             3.a Uber <br>
             <style>
+                .request:hover{
+                    opacity: 0.8;
+                }
                 .btn-request{
                     background-color: black;
                     color: #fff;
@@ -13,20 +16,24 @@
                     height: 50;
                     border: 2px solid #00000000;
                     cursor: pointer;
+                    opacity: 1;
                 }
             </style>
             <a href="https://www.uber.com/us/en/ride/" target="_blank">
-            <button class="btn-request">Request now</button>
+            <button class="btn-request request">Request now</button>
             </a>
             <br><br><hr>
             3.b Amazon
             <style>
+                .lonjong:hover{
+                    background-color: rgb(255, 235, 12);
+                }
                 .btn-lonjong{
                     background-color: rgb(255,216,20);
                     color: #000000;
                     width: 150;
                     height: 35;
-                    border: rgb(255,216,20) 2px;
+                    border: none;
                     cursor: pointer;
                     border-radius: 50px;
                     cursor: pointer;
@@ -34,12 +41,15 @@
             </style>
             <br>
             <a href="https://www.amazon.com/gp/cart/view.html?ref_=nav_cart" target="_blank">
-            <button class="btn-lonjong">Add to Cart</button>
+            <button class="btn-lonjong lonjong">Add to Cart</button>
             </a>
             <br><br><hr>
             3.c Github
             <br>
             <style>
+                .github:hover{
+                    box-shadow: 0px 5px 5px gray;
+                }
                 .btn-github{
                     background-color: rgb(46,164,79);
                     color: #fff;
@@ -52,12 +62,15 @@
                 }
             </style>
             <a href="https://github.com" target="_blank">
-            <button class="btn-github">Sign up</button>
+            <button class="btn-github github">Sign up</button>
             </a>
             <br><br><hr>
             3.d Bootstrap
             <br>
             <style>
+                .bootstrap:hover{
+                    background-color: rgb(136, 92, 202);
+                }
                 .btn-Bootstrap{
                     background-color: rgb(121,82,179);
                     color: #fff;
@@ -67,6 +80,10 @@
                     cursor: pointer;
                     border-radius: 3px;
                     cursor: pointer;
+                }
+                .download:hover{
+                    background-color: rgb(108,117,125);
+                    color: rgb(255, 255, 255);
                 }
                 .btn-download{
                     background-color: rgb(255, 255, 255);
@@ -80,34 +97,45 @@
                 }
             </style>
             <a href="https://getbootstrap.com/docs/5.3/getting-started/download/" target="_blank">
-            <button class="btn-Bootstrap">Get started</button>
+            <button class="btn-Bootstrap bootstrap">Get started</button>
             </a>
-            <button class="btn-download">Download</button>
+            <button class="btn-download download">Download</button>
             <br><br><hr>
             3.e LinkedIn
             <br>
             <style>
+                .linkedin:hover{
+                    background-color: rgb(9, 80, 151);
+                    border-width: 10px;
+                    border-color: rgb(9, 80, 151);
+                    
+                }
                 .btn-LinkedIn{
                     background-color: rgb(10,102,194);
                     color: white;
-                    width: 200;
-                    height: 45;
                     cursor: pointer;
                     border-radius: 50px;
+                    border: 15px solid rgb(10,102,194);
+                }
+                .btn-save:hover{
+                    color: rgb(10,102,194);
+                    background-color:rgb(184, 220, 255) ;
+                    width: 80px;
+                    height: 60px;
                 }
                 .btn-save{
                     background-color: white;
                     color: rgb(10,102,194);
-                    width: 90;
-                    height: 45;
                     cursor: pointer;
-                    border: 0.1px solid rgb(10,102,194);
+                    border: 1px solid rgb(10,102,194);
                     border-radius: 50px;
+                    width: 70px;
+                    height: 50px;
                 }
             </style>
             <a href="https://www.linkedin.com/jobs/view/"  target="_blank">
-            <button class="btn-LinkedIn">Apply on company website</button></a>
-            <button class="btn-save">Save</button>
+            <button class="btn-LinkedIn linkedin">Apply on company website</button></a>
+            <button class="btn-save" >Save</button>
             <br><br>
             <hr>
         </body>

@@ -34,15 +34,17 @@
             </style>
 
             <h1>8.c</h1>
-            <center><img src="7a.jpg" alt="8.c" class="image"></center>
+            <center><img src="image.png" alt="8.c" class="image"></center>
             <br>
             <style>
                 .image {
                     width: 200px;
-                    height: 120px;
+                    height: 100px;
                 }
             </style>
-            <center><input type="text" placeholder=" Search Google or type a URL" class="lima"></center>
+            <form action="https://www.google.com/search" method="get">
+            <center><input type="text" placeholder=" Search Google or type a URL" class="lima" name="q"></center>
+            </form>
             <br><br><hr>
             <style>
                 .lima {
@@ -51,6 +53,7 @@
                     height: 30px;
                     border: transparent;
                     box-shadow: 0 0px 5px gray;
+                    outline: none;
                 }
             </style>
 
